@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "874774745155",
+    "project_id": "logisign-firestore",
+    "storage_bucket": "logisign-firestore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874774745155:android:5dc8c769b1a0e81ccc84f6",
+        "android_client_info": {
+          "package_name": "com.var.firestoreexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874774745155-fj33607gmpmj0t2lhdbi9k2ndc6d20nk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.var.firestoreexample",
+            "certificate_hash": "b1f35814b280f91cec407468fd6c4f0368ee7020"
+          }
+        },
+        {
+          "client_id": "874774745155-9t2breu36e3heg57l1r672d8b99f5cv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3H-B2xN2BbTDEJhWaKD1yShjcpxcuG-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874774745155-9t2breu36e3heg57l1r672d8b99f5cv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

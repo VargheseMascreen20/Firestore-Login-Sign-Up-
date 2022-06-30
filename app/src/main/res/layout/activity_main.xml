@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/uname1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/white"
+            android:drawablePadding="5dp"
+            android:drawableTint="@android:color/white"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/pass1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+          />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+        app:passwordToggleEnabled="true"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/pass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/white"
+            android:drawablePadding="5dp"
+            android:drawableTint="@android:color/white"
+            android:ems="10"
+            android:hint="Password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.437" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Log in"
+        android:textColor="@android:color/white"
+        android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="SIGN UP"
+        android:textColor="@android:color/white"
+        android:theme="@style/Theme.MaterialComponents.Light.DarkActionBar"
+        />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</LinearLayout>
